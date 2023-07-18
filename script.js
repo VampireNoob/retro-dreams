@@ -1,0 +1,6 @@
+gsap.from('.first', {y: -40, duration: 1})
+gsap.from('.item', {opacity: 0, stagger: .7})
+gsap.from('.planOne', {x: -100, duration: 3, ease: 'power3'})
+gsap.from('.planTwo', {x: 100, duration: 3, ease: 'power3'})
+gsap.fromTo('.img', {opacity: 0, scale: 0}, {duration: 2, delay: 2, opacity: 1, scale: 1})
+gsap.fromTo('.bewer', {opacity: 0, scale: 0}, {duration: 2, delay: 2, opacity: 1, scale: 1, ease: 'bounce', stagger: 1.8})

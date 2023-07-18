@@ -1,0 +1,377 @@
+.torso{
+    background-color: #333333;
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #000000;
+    padding: 20px;
+}
+.item{
+    color: #99825d;
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Della Respira', sans-serif;
+}
+.first{
+    margin-right: auto;
+    font-size: 20px;
+}
+#video{
+    width: 100%;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+}
+hr{
+    border-color: #99825d;
+    width: 75%;
+    margin-left: 200px;
+}
+:hover.color{
+    color: #99825d;
+}
+.features{
+    display: flex;
+    max-width: 1500px;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.plan{
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 16px 20px rgba(246, 244, 244, 0.2);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: #a0a0a0;
+    margin: 20px;
+    padding: 30px;
+    flex:1;
+}
+h1{
+    color: #99825d;
+    font-family: 'Della Respira', sans-serif;
+    font-size: 40px;
+}
+h3, img, a{
+    align-self: center;
+}
+h3{
+    color: #99825d;
+    font-family: 'Della Respira', sans-serif;
+    font-size: 30px;
+}
+h4{
+    text-align: center;
+    color: #99825d;
+    font-family: 'Della Respira', sans-serif;
+    font-size: 20px;
+}
+.list{
+    background-color: #666666;
+    color: #b59c75;
+    font-family: 'Della Respira', sans-serif;
+    padding: 10px;
+    border-radius: 50px;
+    list-style-type: none;
+    width: 60%;
+    align-self: center;
+}
+.text{
+    display: flex;
+    justify-content: center;
+}
+.cta{
+    background-color: #99825d;
+    font-size: 30px;
+    color: #ffffd2;
+    border-radius: 10px;
+    align-self: center;
+    cursor: grab;
+}
+:hover.cta{
+    background-color: #333333;
+}
+.price{
+    color: #52616b;
+    font-family: 'Della Respira', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    align-self: center;
+}
+
+.about{
+    display: flex;
+}
+.paar{
+    flex: 1;
+    width: 100%;
+}
+table, th, td{
+    border:#666666 2px solid;
+}
+table{
+    width: 95%;
+}
+th, td{
+    color: #99825d;
+    font-family: 'Della Respira', sans-serif;
+    padding: 25px;
+}
+th, .std{
+    border-color: #838383;
+    font-size: 20px;
+}
+.tabelle{
+    display: flex;
+    justify-content: center;
+}
+p{
+    color: #716045;
+    margin-left: 40px;
+}
+.schrift{
+    color: #716045;
+    font-family: 'Della Respira', sans-serif;
+}
+.kontakt{
+    background-color: #000000;
+    padding: 20px;
+}
+.deko{
+    text-decoration: none;
+    color: #99825d;
+}
+:hover.deko{
+    color: #666666;
+}
+.btn{
+    display: flex;
+    justify-content: end;
+}
+.btn1{
+    background-color: #666666;
+    border-radius: 20px;
+}
+:hover.btn1{
+    background-color: #838383;
+}
+.creat{
+    display: flex;
+    justify-content: center;
+    color: #666666;
+}
+.sice{
+    font-size: 10px;
+}
+.bew{
+    display: flex;
+    max-width: 1500px;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.bewer{
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 16px 20px rgba(246, 244, 244, 0.2);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: #717070;
+    margin: 20px;
+    padding: 30px;
+    flex:1;
+}
+.bewertung{
+    background-color: #666666;
+    color: #b59c75;
+    padding: 20px;
+    border-radius: 50px;
+    list-style-type: none;
+    width: 60%;
+    align-self: center;
+}
+
+/* mobile */
+@media all and (max-width: 900px){
+    .torso{
+        background-color: #323232;
+    }
+    .bew{
+        display: flex;
+        flex-direction: column;
+    }
+    .vid{
+        width: 500px;
+    }
+    .about{
+        width: 550px;
+    }
+    hr{
+        margin-left: 100px;
+    }
+    th, td, .std{
+        font-size: 15px;
+        padding: 15px;
+    }
+    .paar{
+        width: 800px;
+    }
+}
+
+@media all and (max-width: 800px){
+    .nav{
+        display: flex;
+        justify-content: center;
+        font-size: 8px;
+    }
+    .torso{
+        background-color:  #323232;
+    }
+    .bew{
+        display: flex;
+        flex-direction: column;
+    }
+    .vid{
+        width: 500px;
+    }
+    .about{
+        width: 550px;
+    }
+    hr{
+        margin-left: 100px;
+    }
+    th, td, .std{
+        font-size: 15px;
+        padding: 12px;
+    }
+    .paar{
+        width: 750px;
+    }
+}
+
+@media all and (max-width: 500px){
+    .nav{
+        display: flex;
+        justify-content: center;
+        font-size: 6px;
+    }
+    .first{
+        font-size: 10px;
+    }
+    .hr{
+        margin-left: 50px;
+    }
+    .herz{
+        font-size: 20px;
+    }
+    .mobiletext{
+        font-size: 15px;
+    }
+    .herz1{
+        font-size: 15px;
+        margin-left: 25px;
+    }
+    .features{
+        width: 400px;
+        display: flex;
+        justify-content: center;
+    }
+    .img{
+        width: 300px;
+    }
+    .imgh{
+        height: 225px;
+    }
+    .list{
+        width: 250px;
+        padding: 20px;
+    }
+    .torso{
+        background-color:  #323232;
+    }
+    .bew{
+        display: flex;
+        flex-direction: column;
+    }
+    .vid{
+        width: 200px;
+    }
+    .about{
+        width: 100%;
+    }
+    hr{
+        margin-left: 100px;
+    }
+    th, td, .std{
+        font-size: 7px;
+        padding: 7px;
+    }
+    .paar{
+        width: 100px;
+    }
+}
+
+@media all and (max-width: 400px){
+    .nav{
+        display: flex;
+        justify-content: center;
+        font-size: 5px;
+        padding: 5px;
+    }
+    .first{
+        font-size: 7px;
+    }
+    .hr{
+        margin-left: 50px;
+    }
+    .herz{
+        font-size: 20px;
+    }
+    .mobiletext{
+        font-size: 15px;
+    }
+    .herz1{
+        font-size: 15px;
+        margin-left: 25px;
+    }
+    .features{
+        width: 400px;
+        display: flex;
+        justify-content: center;
+    }
+    .img{
+        width: 300px;
+    }
+    .imgh{
+        height: 225px;
+    }
+    .list{
+        width: 250px;
+        padding: 20px;
+    }
+    .torso{
+        background-color:  #323232;
+    }
+    .bew{
+        display: flex;
+        flex-direction: column;
+    }
+    .vid{
+        width: 200px;
+    }
+    .about{
+        width: 100%;
+    }
+    hr{
+        margin-left: 100px;
+    }
+    th, td, .std{
+        font-size: 6px;
+        padding: 6px;
+    }
+    .paar{
+        width: 100px;
+    }
+}
