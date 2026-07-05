@@ -54,5 +54,5 @@ The company "Retro-Dreams" and its contact details (email, phone) are entirely f
 ## Contact
 
 **Alexander Nikel**
-- GitHub: (https://github.com/VampireNoob)
-- Instagram: (https://www.instagram.com/vampirenoob/)
+- GitHub: [@VampireNoob](https://github.com/VampireNoob)
+- Instagram: [@vampirenoob](https://www.instagram.com/vampirenoob/)
