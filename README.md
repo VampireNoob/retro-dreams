@@ -25,6 +25,8 @@ Eine responsive Landingpage für eine fiktive Oldtimer-Vermietung, gebaut mit re
 - Google Fonts (Della Respira)
 
 ## Struktur
+
+```
 retro-dreams/
 ├── index.html          # Startseite
 ├── preise.html         # Preistabelle
@@ -33,6 +35,7 @@ retro-dreams/
 ├── favicon.ico
 ├── video.mp4            # Hero-Video
 └── *.jpg                # Fahrzeugbilder
+```
 ## Lokal ausführen
 
 ```bash
