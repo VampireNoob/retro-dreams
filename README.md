@@ -1,4 +1,4 @@
-# 🚗 Retro-Dreams
+# 🚗 Retro-Dreams 
 
 A responsive landing page for a fictional vintage car rental company, built with plain HTML, CSS, and vanilla JavaScript. Focused on smooth scroll animations (GSAP) and a warm, classic design that matches the retro theme.
 
