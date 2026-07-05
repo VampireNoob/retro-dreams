@@ -30,7 +30,7 @@ hr{
     width: 75%;
     margin-left: 200px;
 }
-:hover.color{
+.color:hover{
     color: #99825d;
 }
 .features{
@@ -91,7 +91,7 @@ h4{
     align-self: center;
     cursor: grab;
 }
-:hover.cta{
+.cta:hover{
     background-color: #333333;
 }
 .price{
@@ -144,7 +144,7 @@ p{
     text-decoration: none;
     color: #99825d;
 }
-:hover.deko{
+.deko:hover{
     color: #666666;
 }
 .btn{
@@ -155,7 +155,7 @@ p{
     background-color: #666666;
     border-radius: 20px;
 }
-:hover.btn1{
+.btn1:hover{
     background-color: #838383;
 }
 .creat{
